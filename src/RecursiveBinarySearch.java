@@ -5,8 +5,10 @@ public class RecursiveBinarySearch {
 
         int[] list = {1,2,3,4,5,6,7,8,9,100};
         int index = recursiveBinarySearch(list, 12);
+
         System.out.println( index == -1 ? "The element is not in the list ": "The element is placed in the "
         + index +" index ");
+
 
     }
 

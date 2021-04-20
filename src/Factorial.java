@@ -8,11 +8,6 @@ public class Factorial {
         Scanner sc = new Scanner(System.in);
 
         System.out.println(factorial(sc.nextInt()));
-
-
-
-
-
     }
 
     private static int factorial(int n) {
